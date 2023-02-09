@@ -24,10 +24,10 @@ body {
 }
 .cabecalho__menu {
     display: flex;
-    gap: 80px;
+    gap: 5%;
 }
 .cabecalho__menu__link {
-    font-size: 24px;
+    font-size: 150%;
     font-family: var(--fonte-secundaria);
     font-weight: 600;
     color: var(--cor-terciaria);
@@ -45,7 +45,7 @@ body {
     justify-content: space-between;
 }
 .apresentacao__conteudo {
-    width: 615px;
+    width: 640px;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -96,8 +96,8 @@ body {
     padding: 5%;
 }
 .imagem {
-    Width: 550px;
-    Height: 550px;
+    Width: 50%;
+    Height: 50%;
     Top: 235px;
     Left: 1030px;
 }
