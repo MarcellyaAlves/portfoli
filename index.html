@@ -5,29 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
     
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+        </nav>
+    </header>
 
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
                 <h1 class="apresentacao__conteudo__titulo">Venha conhecer <strong class="titulo-destaque"> quem sou eu!</strong> </h1>
-                <p class="apresentacao__conteudo__texto">Olá! Sou Marcelly Alves, tenho 26 anos e sou estudante! Sou aluna da faculdade
-                Estácio, onde estou no 3º semestre de análise e desenvolvimento de sistemas.
-                Atualmente estou me aprimorando em <strong class="aprimoramento">HTML, CSS e JavaScript.</strong>
-                Vamos conversar?</p>
+                <p class="apresentacao__conteudo__texto">Olá! Sou Marcelly Alves e sou uma desenvolvedora de software
+                    em formação, atualmente me aprimorando em <strong class="aprimoramento">HTML, CSS e JavaScript.</strong> </p>
                 <div class="apresentacao__links">
-                    <a class="apresentacao__links__link" href="https://www.instagram.com/marcellyaalves/">Instagram</a>
+                    <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+                    <a class="apresentacao__links__link" href="https://www.instagram.com/marcellyaalves/">
+                        <img src="./assets/instagram.png" alt="Icone do Instagram"> Instagram</a>
 
-                    <a class="apresentacao__links__link" href="https://github.com/MarcellyaAlves">GitHub</a>
+                    <a class="apresentacao__links__link" href="https://github.com/MarcellyaAlves">
+                        <img src="./assets/github.png" alt="icone do GitHub"> GitHub</a>
+
+                    <a class="apresentacao__links__link" href="https://www.linkedin.com/in/marcelly-alves-730a67162/">
+                       <img src="./assets/linkedin.png" alt="Icone do LinkedIn">  LinkedIn</a>
                 </div>
         </section>
-                 <img class="imagem" src="img.jpg" alt="Foto da Marcelly Alves">      
+                 <img class="imagem" src="./assets/img.jpg" alt="Foto da Marcelly Alves">      
     </main>
 
-    <footer></footer>
+    <footer class="rodape">
+        <p>Desenvolvido por Marcelly Alves.</p>
+    </footer>
 
 </body>
 </html>
