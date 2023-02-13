@@ -99,7 +99,7 @@ body {
 .imagem {
     Width: 60%;    
     width: 29rem;
-    height: 30rem;
+    height: 31rem;
 }
 
 .rodape {
@@ -125,11 +125,6 @@ body {
     }
     .apresentacao__conteudo{
         width: auto;
-    }
-    .imagem {
-        Width: 30%; 
-        width: 10rem;
-        height: 11rem;
     }
  
 }
