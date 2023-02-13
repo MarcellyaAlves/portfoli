@@ -1,3 +1,11 @@
-# portfolio
+# Portfólio
 
-Este é o meu site pessoal.
+Olá, bem vindo ao meu projeto de site pessoal.
+
+
+# Ferramentas utilizadas:
+• HTML
+• CSS
+• Flex-box
+
+
