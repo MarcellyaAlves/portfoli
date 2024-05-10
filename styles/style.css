@@ -23,6 +23,7 @@ body {
     padding: 2% 0% 0% 10%;
 }
 .cabecalho__menu {
+    justify-content: center;
     display: flex;
     gap: 5%;
 }
