@@ -8,4 +8,5 @@ Olá, bem vindo ao meu projeto de site pessoal.
 • CSS
 • Flex-box
 
+# Desenvolvido no VS Code
 
